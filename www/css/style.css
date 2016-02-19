@@ -1,0 +1,70 @@
+/* Empty. Add your own CSS if you like */
+
+.centralize-container{
+	text-align: center;
+}
+
+#otz-chiim{
+
+}
+
+#otz-chiim-container{
+	display: inline-block;
+	position: relative;
+	width: 333px;
+	height: 622px;
+}
+
+.sephirah{
+	position: absolute;
+	height: 60px;
+	width: 60px;
+	border-radius: 30px;
+}
+
+#sephirah-1{
+	background-color: white;
+	left: 40%;
+	top: 12%;
+}
+#sephirah-2{
+	background-color: gray;
+	left: 70%;
+	top: 21%;
+}
+#sephirah-3{
+	background-color: black;
+	left: 11%;
+	top: 21%;
+}
+#sephirah-4{
+	background-color: blue;
+	left: 70%;
+	top: 40%;
+}
+#sephirah-5{
+	background-color: red;
+	left: 11%;
+	top: 40%;
+}
+#sephirah-6{
+	background-color: yellow;
+	left: 40%;
+	top: 49%;
+}
+#sephirah-7{
+	background-color: orange;
+	left: 11%;
+	top: 58%;
+}
+#sephirah-8{
+	background-color: green;
+	left: 70%;
+	top: 58%;
+}
+#sephirah-9{
+	background-color: indigo;
+	left: 41%;
+	top: 66%;
+}
+#sephirah-10
