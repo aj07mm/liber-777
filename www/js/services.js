@@ -47,4 +47,17 @@ angular.module('starter.services', ['starter.factories'])
       return null;
     }
   };
+})
+
+.service('StaticData', function($timeout, $http) {
+    var filePath = 'static/'
+    return {
+        get: function(fileName) {
+            return $timeout(function() {
+                return $http.get( filePath + fileName ).then(function(response) {
+                    return response.data;
+                });
+            }, 30);
+        }
+    }
 });

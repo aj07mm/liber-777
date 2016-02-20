@@ -7,7 +7,7 @@
 // 'starter.controllers' is found in controllers.js
 angular.module('starter', ['ionic', 'starter.controllers', 'starter.factories', 'starter.services'])
 
-.run(function($ionicPlatform) {
+.run(function($ionicPlatform, $rootScope, $state, Data) {
   $ionicPlatform.ready(function() {
     // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
     // for form inputs)
@@ -19,6 +19,11 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.factories', 
     if (window.StatusBar) {
       // org.apache.cordova.statusbar required
       StatusBar.styleDefault();
+    }
+    //Create behaviour on tab
+    $rootScope.clearSephirahId = function(){
+      Data.unsetCurrentSephiraId();
+      $state.go("tab.chats");
     }
   });
 })
