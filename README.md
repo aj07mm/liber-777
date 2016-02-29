@@ -8,6 +8,12 @@ Liber 777
 
 -> This is a mobile app listing all liber 777 correspondences using Ionic framework <-
 
+
+### To clone this repo (because there are submodules):
+
+
+	git clone --recursive https://github.com/aj07mm/liber-777
+
 ### How to export to your device:
 
 - Android
