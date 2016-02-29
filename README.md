@@ -10,11 +10,11 @@ Liber 777
 
 ### How to export to your device:
 
-- Android
+#### Android
 
 	ionic run android
 
-- IOS
+#### IOS
 
 	ionic run ios
 
