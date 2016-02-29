@@ -1,25 +1,23 @@
-Ionic App Base
+Liber 777
 =====================
 
-A starting project for Ionic that optionally supports using custom SCSS.
+93!
 
-## Using this project
+![Image Alt](https://raw.githubusercontent.com/aj07mm/liber-777/cacb0460e8b4c9bcb65a8b8e607ab330a2889c1e/resources/icon.png)
 
-We recommend using the [Ionic CLI](https://github.com/driftyco/ionic-cli) to create new Ionic projects that are based on this project but use a ready-made starter template.
 
-For example, to start a new Ionic project with the default tabs interface, make sure the `ionic` utility is installed:
+This is a mobile app listing all liber 777 correspondences using Ionic framework
 
-```bash
-$ npm install -g ionic
-```
+### How to export to your device:
 
-Then run:
+	- Android
 
-```bash
-$ ionic start myProject tabs
-```
+		ionic run android
 
-More info on this can be found on the Ionic [Getting Started](http://ionicframework.com/getting-started) page and the [Ionic CLI](https://github.com/driftyco/ionic-cli) repo.
+	- IOS
 
-## Issues
-Issues have been disabled on this repo, if you do find an issue or have a question consider posting it on the [Ionic Forum](http://forum.ionicframework.com/).  Or else if there is truly an error, follow our guidelines for [submitting an issue](http://ionicframework.com/submit-issue/) to the main Ionic repository.
+		ionic run ios
+
+
+
+
