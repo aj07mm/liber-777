@@ -3,7 +3,7 @@ angular.module('starter.controllers', ['starter.factories'])
   if($scope.liber777 == undefined){
     $ionicLoading.show({
       template: 'Loading...',
-      duration: 4000
+      duration: 5000
     });
     StaticData.get('liber777json/liber777.json').then(function(data) {
       Data.setLiber777(data);

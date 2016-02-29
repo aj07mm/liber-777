@@ -21,10 +21,10 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.factories', 
       StatusBar.styleDefault();
     }
     //Create behaviour on tab
-    $rootScope.clearSephirahId = function(){
-      Data.unsetCurrentSephiraId();
-      $state.go("tab.chats");
-    }
+    // $rootScope.clearSephirahId = function(){
+    //   Data.unsetCurrentSephiraId();
+    //   $state.go("tab.chats");
+    // }
   });
 })
 
