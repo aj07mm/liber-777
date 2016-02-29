@@ -18,7 +18,7 @@ Liber 777
 
 	ionic run ios
 
-### Or run on your browser:
+#### browser
 
 	ionic run serve
 
